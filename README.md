@@ -44,10 +44,7 @@ npm install -g expo-cli
 to install it (the `-g` flag means install this globally onto the system for use everywhere).
 
     2a. If an error pops up, you might not have permissions to install an npm package globally. Do the command:
-    ```
-    sudo npm install -g expo-cli
-    ```
-    where prepending sudo allows you to run things with root permissions.
+    `sudo npm install -g expo-cli`where prepending sudo allows you to run things with root permissions.
 
 3. Because the repository is already cloned, we're done! Open the `client` folder with your terminal and run
 ```
