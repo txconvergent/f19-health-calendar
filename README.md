@@ -37,7 +37,11 @@ We went over this in meeting, but it's good to review.
 
 1. First, download both. Get Node.js and NPM [here](https://nodejs.org/en/), as they're both bundled together. Check if you have both by running the commands, `node -v` and `npm -v` to check their versions.
 
-2. Now, we need to install Expo, a tool used to compile, build, and test React Native Apps for development. Run `npm install -g expo-cli` to install it (the `-g` flag means install this globally onto the system for use everywhere).
+2. Now, we need to install Expo, a tool used to compile, build, and test React Native Apps for development. Run
+```
+npm install -g expo-cli
+```
+to install it (the `-g` flag means install this globally onto the system for use everywhere).
 
     2a. If an error pops up, you might not have permissions to install an npm package globally. Do the command:
     ```
