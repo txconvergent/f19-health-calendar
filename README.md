@@ -21,9 +21,11 @@ Back-End:
 If you haven't used GitHub before, it's not too hard to get started.
 
 To get the repo onto the computer, run the following command in your terminal/command prompt in your home directory:
-```git clone https://github.com/txconvergent/f19-health-calendar.git```
+```
+git clone https://github.com/txconvergent/f19-health-calendar.git
+```
 
-After finishing running it, you should have a new folder in your home directory called `f19-health-calendar.git`. Go into it and you should see the contents of this repo.
+After finishing running it, you should have a new folder in your home directory called `f19-health-calendar/`. Go into it and you should see the contents of this repo.
 
 ### Installing the stuff
 
@@ -38,11 +40,15 @@ We went over this in meeting, but it's good to review.
 2. Now, we need to install Expo, a tool used to compile, build, and test React Native Apps for development. Run `npm install -g expo-cli` to install it (the `-g` flag means install this globally onto the system for use everywhere).
 
     2a. If an error pops up, you might not have permissions to install an npm package globally. Do the command:
-    ```sudo npm install -g expo-cli```
+    ```
+    sudo npm install -g expo-cli
+    ```
     where prepending sudo allows you to run things with root permissions.
 
 3. Because the repository is already cloned, we're done! Open the `client` folder with your terminal and run
-```npm start```
+```
+npm start
+```
 to start the expo environment, which will allow you to run the app on your phone using the Expo app on the app store.
 
 #### Python / Flask
@@ -50,10 +56,16 @@ to start the expo environment, which will allow you to run the app on your phone
 1. If you don't already have Python 3.7 installed, get it [here](https://www.python.org/downloads/) and install. Pip, the Python package manager equivalent to NPM for Node.js should be automatically with Python 3.7 as well.
 
 2. Now, we need to install pipenv, a module that will allow us to use local repository dependencies (modules that we download, like Flask, that we store locally in our repository that our program depends on) and run our Flask app. Run the following to install:
-```pip install pipenv```
+```
+pip install pipenv
+```
 
 3. To run the flask app, first do
-```pipenv shell```
+```
+pipenv shell
+```
 to launch pipenv's virtual environment. In there, you then type
-```flask run```
+```
+flask run
+```
 to run the Flask app. Type `localhost:5000` in the browser and you should see the app run with a "Hello world!" message.
